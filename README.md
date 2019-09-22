@@ -1,4 +1,4 @@
-# Electronic Calculator
+# Pomodoro Clock
 
 A pomodoro clock written in javascript as part of freecodecamp challenge
 
