@@ -1,0 +1,70 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+    font-family: Open Sans,Arial;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+}
+
+.break, .session {
+    padding: 10px 20px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+.length {
+    width: 30px;
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.timer {
+    border: 3px solid #99cc00;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 300px;
+    width: 300px;
+    margin: 20px auto;
+    font-size: 3em;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.timer::before {
+    content: "";
+    border: 1px solid Black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.title {
+    line-height: 95px;
+}
+
+.fill {
+    background-color: #ff4444;
+    height: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+    
+}
